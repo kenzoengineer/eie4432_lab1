@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles/order.css">
+        <title>
+            23012932X_Drink Ordering Form
+        </title>
+    </head>
+    <body>
+        <header>
+            <h1>
+                Drink Ordering Form
+            </h1>
+        </header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li class="currentPage">
+                    <a href="#">Order</a>
+                </li>
+                <li>
+                    <a href="#">Menu</a>
+                </li>
+            </ul>
+        </nav>
+        <main>
+            <form action="#" method="post">
+                <div class="name-input">
+                    <label for="name">Name:</label>
+                        <input id="name" name="name" type="text" required>
+                </div>
+                <div class="drink-select">
+                    <label for="drink">Drink:</label>
+                    <select id="drink" name="drink">
+                        <option value="Bubble Milktea">Bubble Milktea</option>
+                        <option value="Iced Latte">Iced Latte</option>
+                        <option value="Pineapple Juice">Pineapple Juice</option>
+                    </select>
+                </div>
+                <div class="size-select">
+                    <label for="size">Size:</label>
+                    <input type="radio" id="small" value="small" name="size">
+                    <label for="small">Small</label>
+                    <input type="radio" id="medium" value="medium" name="size">
+                    <label for="medium">Medium</label>
+                    <input type="radio" id="large" value="large" name="size">
+                    <label for="large">Large</label>
+                </div>
+                <div class="submission">
+                    <input type="submit" value="Place Order">
+                </div>
+            </form>
+        </main>
+        <footer>
+            © 23012932X Ken Jiang - EIE4432 Lab 1 Project
+        </footer>
+    </body>
+</html>
